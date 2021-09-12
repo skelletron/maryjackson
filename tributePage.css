@@ -12,11 +12,16 @@ body{
 }
 
 body li{
-    padding: 10px 10px 10px 10px;
+    padding: 10px 70px 10px 70px;
 }
 
 h1{
     font-family: 'Poller One';
+    text-align: center;
+    line-height: 1em;
+}
+
+footer{
     text-align: center;
 }
 
@@ -59,4 +64,55 @@ h1{
     border: solid rgb(26, 18, 32) 4px;
     border-radius: 10px;
     display: block;
+}
+
+.rocket {
+    /* background-image:url("data:image/svg+xml;utf8,<svg width='256' height='256' version='1.1' viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'><g fill='#fff'><path d='m112 120c0.59744 9.5962 6.3852 30 16 30s15.403-20.404 16-30c0.74103-11.903-3.4745-46-16-46s-16.741 34.097-16 46z'/><path d='m96 148h30l-12-24s-22.537 15.523-18 24z'/><path d='m161.4 148h-30l12-24s22.537 15.523 18 24z'/><path d='m124 152c1.2486-0.57429 2.6256 1 4 1s2.7514-1.5743 4-1c2.7087 1.2458 4.4776 5.0571 4 8-0.60409 3.7225-4.2288 14-8 14s-7.3959-10.277-8-14c-0.47757-2.9429 1.2913-6.7542 4-8z'/></g></svg>"); */
+    /* background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 18.75px;
+    border: 0px;
+    margin: auto;
+    margin-bottom: 20px; */
+    width: 100px;
+}
+
+#container{
+    margin: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    width: 200px;
+
+    /*gap lets you create a gap between flex objects*/
+    /* gap: 2px; */
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+}
+
+.glasses-rule{
+    background-image:url("data:image/svg+xml;utf8,<svg width='1024' height='64' version='1.1' viewBox='0 0 1024 64' xmlns='http://www.w3.org/2000/svg'><g fill='none' stroke='#000'><g stroke-width='3'><path d='m492 42c-1.7648 1.9991-1.7648 10.001 0 12 1.7785 2.0147 5.3126 3 8 3s6.2215-0.9853 8-3c1.7648-1.9991 1.7648-10.001 0-12-1.7785-2.0147-5.3126-3-8-3s-6.2215 0.9853-8 3z'/><path d='m510 48h4'/><path d='m532 42c-1.7785-2.0147-5.3126-3-8-3s-6.2215 0.9853-8 3c-1.7648 1.9991-1.7648 10.001 0 12 1.7785 2.0147 5.3126 3 8 3s6.2215-0.9853 8-3c1.7648-1.9991 1.7648-10.001 0-12z'/></g><g stroke-linecap='round'><path d='m490 44s-3-11-6-16c-1.372-2.2866-6 4-6 4' stroke-width='3'/><path d='m534 44 6-16c0.93633-2.4969 6 4 6 4' stroke-width='3'/><path d='m8 48h472' stroke-width='4'/><path d='m544 48h472' stroke-width='4'/></g></g></svg>");
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 18.75px;
+    border: 0px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.glasses{
+    max-width: 90%;
+    height: auto;
+    border: solid rgb(26, 18, 32) 4px;
+    border-radius: 10px;
+    display: block;
+    padding-bottom: 25px;
+    margin: auto;
 }
