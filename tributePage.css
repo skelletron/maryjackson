@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+body{
+    text-align: justify;
+    color: rgb(200, 200, 199);
+    font-family: 'Spartan';
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 23, 42);
+}
+
+body li{
+    padding: 10px 10px 10px 10px;
+}
+
+h1{
+    font-family: 'Poller One';
+    text-align: center;
+}
+
+.tribute-info{
+    text-align: center;
+    font-family: 'Poller One';
+}
+
+.content{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px 80px 10px 80px;
+    background-color:rgb(26, 18, 32);
+}
+
+.rounded{
+    border: 4px solid rgb(45, 33, 54);
+    border-top: 5px solid rgb(45, 33, 54);
+    border-bottom: 5px solid rgb(45, 33, 54);
+    border-radius: 6px;
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(197, 195, 97);
+}
+
+.stuff{
+    text-align: center;
+}
+
+.stuff img{
+    /* width: 100%; */
+    max-width: 100%;
+    height: auto;
+    border: solid rgb(26, 18, 32) 4px;
+    border-radius: 10px;
+    display: block;
+}
